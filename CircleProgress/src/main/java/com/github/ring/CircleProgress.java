@@ -173,8 +173,8 @@ public class CircleProgress extends View {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         int widthSize = MeasureSpec.getSize(widthMeasureSpec);
         int heightSize = MeasureSpec.getSize(heightMeasureSpec);
-        int mWidth =200;
-        int mHeight = 200;
+        int mWidth =240;
+        int mHeight = 240;
         if(getLayoutParams().width== ViewGroup.LayoutParams.WRAP_CONTENT&&getLayoutParams().height== ViewGroup.LayoutParams.WRAP_CONTENT){
             setMeasuredDimension(mWidth,mHeight);
         }else if(getLayoutParams().width== ViewGroup.LayoutParams.WRAP_CONTENT){
